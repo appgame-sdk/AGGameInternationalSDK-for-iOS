@@ -10,6 +10,7 @@
 #import <AGGameInternationalSDK/AGPurchase.h>
 #import <AGGameInternationalSDK/AGUser.h>
 #import <AGGameInternationalSDK/AGUser+AGUI.h>
+#import <AGGameInternationalSDK/AGShare.h>
 //! Project version number for AGJointOperationSDK.
 FOUNDATION_EXPORT double AGGameInternationalSDKVersionNumber;
 
@@ -27,7 +28,7 @@ FOUNDATION_EXPORT const unsigned char AGGameInternationalSDKVersionString[];
  @param clientId 客户端id
  @param clientSecret 客户端secret
  */
-+ (void)setClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret;
++ (void)setClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret appleAppID:(NSString*)appleAppID;
 
 /**
  设置SDK的ClientId和ClientSecret。这两个值向任玩堂申请获得。
@@ -35,7 +36,7 @@ FOUNDATION_EXPORT const unsigned char AGGameInternationalSDKVersionString[];
  @param clientSecret 客户端secret
  @param gameServerId CP服务器id
  */
-+ (void)setClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret gameServerId:(NSString*)gameServerId;
++ (void)setClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret appleAppID:(NSString*)appleAppID gameServerId:(NSString*)gameServerId;
 
 /**
  获得客户端id.

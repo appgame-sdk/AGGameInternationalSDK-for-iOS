@@ -13,13 +13,14 @@
 ///--------------------------------------
 #pragma mark - Notification
 /**
- 登录消息。登录成功或者失败都会发送消息。
+ 用户消息。用户登录成功或者失败都会发送消息。
  */
 extern NSString *const _Nonnull AGUserDidChangeNotification;
-
-extern NSString *const _Nonnull AGUserKey;
+//用户消息错误键
 extern NSString *const _Nonnull AGErrorKey;
+//用户消息登录信息键
 extern NSString *const _Nonnull AGDidSignInKey;
+//用户消息登出信息键
 extern NSString *const _Nonnull AGDidSignOutKey;
 
 ///--------------------------------------

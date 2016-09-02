@@ -10,7 +10,7 @@
 #import <StoreKit/StoreKit.h>
 
 /**
- 内购类。包装了StoreKit的内购过程，同时包含了本地收据验证和服务器收据验证，提高了内购的安全验证。
+ 内购类。包装了StoreKit的内购过程，同时包含了本地收据验证和服务器收据验证，提高了内购的安全验证。内购前需要AGUser登录成功。
  @warning 请不要直接调用系统的StoreKit进行内购开发，这样会绕过我们的购买记录和收据验证。
  */
 @interface AGPurchase : NSObject
