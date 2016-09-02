@@ -1,8 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AGGameInternationalSDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../AGGameInternationalSDK" "${PODS_ROOT}/AppsFlyerFramework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AGGameInternationalSDK" "${PODS_ROOT}/Headers/Public/AppsFlyerFramework"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AGGameInternationalSDK/AGGameInternationalSDK.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "AGGameInternationalSDK"
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AGGameInternationalSDK" -isystem "${PODS_ROOT}/Headers/Public/AppsFlyerFramework"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AGGameInternationalSDK" -framework "AdSupport" -framework "AppsFlyer" -framework "CoreGraphics" -framework "GameKit" -framework "MobileCoreServices" -framework "Security" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "iAd"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
