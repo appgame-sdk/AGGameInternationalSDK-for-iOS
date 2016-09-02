@@ -1,2 +1,29 @@
-# AGGameInternationalSDK-for-iOS
-任玩堂海外联运SDK。
+# AGGameInternationalSDK
+
+[![CI Status](http://img.shields.io/travis/supermao/AGGameInternationalSDK.svg?style=flat)](https://travis-ci.org/supermao/AGGameInternationalSDK)
+[![Version](https://img.shields.io/cocoapods/v/AGGameInternationalSDK.svg?style=flat)](http://cocoapods.org/pods/AGGameInternationalSDK)
+[![License](https://img.shields.io/cocoapods/l/AGGameInternationalSDK.svg?style=flat)](http://cocoapods.org/pods/AGGameInternationalSDK)
+[![Platform](https://img.shields.io/cocoapods/p/AGGameInternationalSDK.svg?style=flat)](http://cocoapods.org/pods/AGGameInternationalSDK)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+AGGameInternationalSDK is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "AGGameInternationalSDK"
+```
+
+## Author
+
+supermao, 625257555@qq.com
+
+## License
+
+AGGameInternationalSDK is available under the MIT license. See the LICENSE file for more info.
