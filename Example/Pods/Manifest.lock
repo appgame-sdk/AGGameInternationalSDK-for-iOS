@@ -1,5 +1,7 @@
 PODS:
-  - AGGameInternationalSDK (0.1.0)
+  - AGGameInternationalSDK (0.1.0):
+    - AppsFlyerFramework (~> 4.5)
+  - AppsFlyerFramework (4.5.3)
 
 DEPENDENCIES:
   - AGGameInternationalSDK (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AGGameInternationalSDK: c75363a094f03377e3c5ad7ad672520592768e3f
+  AGGameInternationalSDK: 6ceeaa378290a6d85a993e7dc068f978cf471a38
+  AppsFlyerFramework: 978df69f6570d02115af1dc8ba205e62c0573b16
 
 PODFILE CHECKSUM: 8d1eecfdda4133b52d625bd72c3ee975431505e1
 

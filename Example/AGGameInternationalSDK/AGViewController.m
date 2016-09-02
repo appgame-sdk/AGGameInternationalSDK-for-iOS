@@ -7,7 +7,7 @@
 //
 
 #import "AGViewController.h"
-
+#import <AGGameInternationalSDK/AGGameInternationalSDK.h>
 @interface AGViewController ()
 
 @end
@@ -18,8 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [AGShare shareToFacebookOnViewController:self initialText:nil image:nil URL:nil completionBlock:^(AGShareResult result) {
+        
+    }];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -1,6 +1,0 @@
-framework module AGGameInternationalSDK {
-  umbrella header "AGGameInternationalSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

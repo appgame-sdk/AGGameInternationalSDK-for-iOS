@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AGGameInternationalSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AGGameInternationalSDK",
+  "homepage": "http://www.appgame.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,29 @@
     "supermao": "625257555@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AGGameInternationalSDK.git",
+    "git": "https://github.com/appgame-sdk/AGGameInternationalSDK-for-iOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "AGGameInternationalSDK/Classes/**/*"
+  "requires_arc": true,
+  "frameworks": [
+    "MobileCoreServices",
+    "SystemConfiguration",
+    "UIKit",
+    "GameKit",
+    "CoreGraphics",
+    "Social",
+    "StoreKit"
+  ],
+  "vendored_frameworks": "AGGameInternationalSDK/AGGameInternationalSDK.framework",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "dependencies": {
+    "AppsFlyerFramework": [
+      "~> 4.5"
+    ]
+  }
 }

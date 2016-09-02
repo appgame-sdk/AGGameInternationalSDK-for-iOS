@@ -8,33 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		131217F116DB9F625391CB1EA65273B5 /* Pods-AGGameInternationalSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C425E613D4C44F8FE28F64440F53417B /* Pods-AGGameInternationalSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13F93EC286A2F5D46554A851BE929D77 /* Pods-AGGameInternationalSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6957ED54F2B4FF6CC9DFD75D10F255 /* Pods-AGGameInternationalSDK_Example-dummy.m */; };
-		1C376D0088196797AB6F6A146E2D9664 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54C58DBBCA18890EECC676B1083F01 /* ReplaceMe.m */; };
-		3AF15BB8DCB239BAB38150E659326116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3E7CE1649A0474A5C8EF1683FA836182 /* Pods-AGGameInternationalSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F055C5D63BA7D086F7F5457447B0D1C /* Pods-AGGameInternationalSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EC29E16FF4C58F194657EFC9C26B020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		636FB410EC2CF39D3E7DEA50A5506B93 /* AGGameInternationalSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8ED7C2B6B42272F58BBB8914DAD7DB /* AGGameInternationalSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C3E8130B8285F7FD54CAEB59D351A41 /* Pods-AGGameInternationalSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F055C5D63BA7D086F7F5457447B0D1C /* Pods-AGGameInternationalSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96F5AA322C38AFC2F4497493E743A6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9EBED187E7A4866F2637FF6F2A855884 /* AGGameInternationalSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B81E31231423DCA9F80DC1DA9A334C55 /* AGGameInternationalSDK-dummy.m */; };
 		B52F844E356053D93B083FD5D88845A2 /* Pods-AGGameInternationalSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2855B9CDC9497D78DBA4A0B4C60C0473 /* Pods-AGGameInternationalSDK_Tests-dummy.m */; };
+		D7C76B378F52F8C2803EB92AAC50BE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EF02F2CDCCEE8DE7EB372EBFEA30CD99 /* Pods-AGGameInternationalSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6957ED54F2B4FF6CC9DFD75D10F255 /* Pods-AGGameInternationalSDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		484F118D2B000087745CC6E36DE8C324 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A23F7E682E2672AC69A76758354140DE;
-			remoteInfo = AGGameInternationalSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		02482AEBB007923146E6B3D10BE6F542 /* Pods_AGGameInternationalSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGGameInternationalSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D8ED7C2B6B42272F58BBB8914DAD7DB /* AGGameInternationalSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGGameInternationalSDK-umbrella.h"; sourceTree = "<group>"; };
 		23629D39A18EB441727F38BF49250371 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2409AAF43B5B8D01DBCEEEC3110E5200 /* Pods-AGGameInternationalSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGameInternationalSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2855B9CDC9497D78DBA4A0B4C60C0473 /* Pods-AGGameInternationalSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGGameInternationalSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		29ACE78673DB2ABF6C43AAB058D9F0D6 /* Pods_AGGameInternationalSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGGameInternationalSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		345415B7EEE230AE1DACCDD52E74E3DF /* Pods-AGGameInternationalSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGameInternationalSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		3540DA0CCAADCF51F66D612B1AD1ECE1 /* Pods-AGGameInternationalSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGGameInternationalSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3AEFE6B1739903C2E4D76ABD97754D54 /* Pods-AGGameInternationalSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGameInternationalSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,24 +29,19 @@
 		465D2F3F9328F13E8D2AF255ACE61104 /* Pods-AGGameInternationalSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGameInternationalSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4A354308B97FF139F8EDAEF54DF1ACE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8FBAE95DD3E5E495CF603EF8D72CAF /* Pods-AGGameInternationalSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGGameInternationalSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		589D4C4EEC88E4313B9B9190A34B3636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEAFBDA03DA3350EC38309B3F48210A /* Pods-AGGameInternationalSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGGameInternationalSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		76BC1A43127CD41398F2012311FD5BCC /* AGGameInternationalSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGGameInternationalSDK.modulemap; sourceTree = "<group>"; };
+		7640F14478028E66118CD8D42D2EAED8 /* Pods_AGGameInternationalSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGGameInternationalSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92799D822C9D1CC8083F2691775A25AA /* Pods-AGGameInternationalSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGGameInternationalSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A6957ED54F2B4FF6CC9DFD75D10F255 /* Pods-AGGameInternationalSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGGameInternationalSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		9E547C20043AFE63FE4D5D5FE93A618E /* Pods-AGGameInternationalSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGameInternationalSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ABDBF438535A8756363670F03AE2F56A /* AGGameInternationalSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGGameInternationalSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B81E31231423DCA9F80DC1DA9A334C55 /* AGGameInternationalSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGGameInternationalSDK-dummy.m"; sourceTree = "<group>"; };
+		AE3E6458AB54BD591F21FC93A11687B3 /* AGGameInternationalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGGameInternationalSDK.framework; path = AGGameInternationalSDK/AGGameInternationalSDK.framework; sourceTree = "<group>"; };
 		C2873534D6CBB91C9D2DF59722ED0E9C /* Pods-AGGameInternationalSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGGameInternationalSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C425E613D4C44F8FE28F64440F53417B /* Pods-AGGameInternationalSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGGameInternationalSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA54C58DBBCA18890EECC676B1083F01 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E223C74ADE5D872AAC2231EECBBA1621 /* Pods-AGGameInternationalSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGameInternationalSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		E807727D7C55CCF85BF9B5E8299FFBC0 /* AppsFlyer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyer.framework; sourceTree = "<group>"; };
 		E9BF897FC45DECCD132D47BB25C83EF8 /* Pods-AGGameInternationalSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGameInternationalSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBDADDE739649743756D077DA57E57A5 /* AGGameInternationalSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGGameInternationalSDK.xcconfig; sourceTree = "<group>"; };
-		ECEF1CC560E6FB7AAB7BC7135303855B /* Pods_AGGameInternationalSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGGameInternationalSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD6DB9242AD34EF93902A2FD93563D87 /* AGGameInternationalSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGGameInternationalSDK-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,45 +53,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7054D76328D04D289E6D957993B83B0F /* Frameworks */ = {
+		FC70DE5796F987EF77D4CF7B7E72BD1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5AA322C38AFC2F4497493E743A6F1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2F1A596E9A5168F12B4065C6886B28B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AF15BB8DCB239BAB38150E659326116 /* Foundation.framework in Frameworks */,
+				D7C76B378F52F8C2803EB92AAC50BE33 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E558248FCEC749A897E3C64371B2A93 /* Development Pods */ = {
+		221A60EDD92595CDB52B95A653BAC767 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D583FE5756C585406A6AD9670E5CF432 /* AGGameInternationalSDK */,
+				AE3E6458AB54BD591F21FC93A11687B3 /* AGGameInternationalSDK.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		345535A882B11CFA2780FF3D00A27D2E /* Support Files */ = {
+		257A58BFDF96F4288D3B6C46C0F59131 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76BC1A43127CD41398F2012311FD5BCC /* AGGameInternationalSDK.modulemap */,
-				EBDADDE739649743756D077DA57E57A5 /* AGGameInternationalSDK.xcconfig */,
-				B81E31231423DCA9F80DC1DA9A334C55 /* AGGameInternationalSDK-dummy.m */,
-				FD6DB9242AD34EF93902A2FD93563D87 /* AGGameInternationalSDK-prefix.pch */,
-				1D8ED7C2B6B42272F58BBB8914DAD7DB /* AGGameInternationalSDK-umbrella.h */,
-				589D4C4EEC88E4313B9B9190A34B3636 /* Info.plist */,
+				677D82CBC131C24B4D13C1D96CCD2DD6 /* AppsFlyerFramework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AGGameInternationalSDK";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3682A5BD1606E521992853F2684350FA /* AGGameInternationalSDK */ = {
+			isa = PBXGroup;
+			children = (
+				221A60EDD92595CDB52B95A653BAC767 /* Frameworks */,
+			);
+			name = AGGameInternationalSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -131,31 +106,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6BF98D0553C9C980508FA586B66A6CDA /* AGGameInternationalSDK */ = {
+		677D82CBC131C24B4D13C1D96CCD2DD6 /* AppsFlyerFramework */ = {
 			isa = PBXGroup;
 			children = (
-				989AE1ED0FBADCFDBE74A3CADD272F01 /* Classes */,
+				FD38E7BDF08DE7864E15322771D80873 /* Frameworks */,
 			);
-			path = AGGameInternationalSDK;
+			path = AppsFlyerFramework;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2E558248FCEC749A897E3C64371B2A93 /* Development Pods */,
+				FDE510192028B420362B203CF1B30D76 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E31A7010265D97D207232DAEE6369870 /* Products */,
+				257A58BFDF96F4288D3B6C46C0F59131 /* Pods */,
+				BA6BB6415CD95AB3050D9402694EA457 /* Products */,
 				590AA0A67798F3CD825389625FFB82DE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		989AE1ED0FBADCFDBE74A3CADD272F01 /* Classes */ = {
+		BA6BB6415CD95AB3050D9402694EA457 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA54C58DBBCA18890EECC676B1083F01 /* ReplaceMe.m */,
+				7640F14478028E66118CD8D42D2EAED8 /* Pods_AGGameInternationalSDK_Example.framework */,
+				29ACE78673DB2ABF6C43AAB058D9F0D6 /* Pods_AGGameInternationalSDK_Tests.framework */,
 			);
-			path = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -164,16 +141,6 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D583FE5756C585406A6AD9670E5CF432 /* AGGameInternationalSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6BF98D0553C9C980508FA586B66A6CDA /* AGGameInternationalSDK */,
-				345535A882B11CFA2780FF3D00A27D2E /* Support Files */,
-			);
-			name = AGGameInternationalSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E1974D906EDFE9345C3A73D713DF9D85 /* Pods-AGGameInternationalSDK_Tests */ = {
@@ -194,16 +161,6 @@
 			path = "Target Support Files/Pods-AGGameInternationalSDK_Tests";
 			sourceTree = "<group>";
 		};
-		E31A7010265D97D207232DAEE6369870 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ABDBF438535A8756363670F03AE2F56A /* AGGameInternationalSDK.framework */,
-				ECEF1CC560E6FB7AAB7BC7135303855B /* Pods_AGGameInternationalSDK_Example.framework */,
-				02482AEBB007923146E6B3D10BE6F542 /* Pods_AGGameInternationalSDK_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		F54F6EC940AC22D786B588DDB2FB0285 /* Pods-AGGameInternationalSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,14 +179,30 @@
 			path = "Target Support Files/Pods-AGGameInternationalSDK_Example";
 			sourceTree = "<group>";
 		};
+		FD38E7BDF08DE7864E15322771D80873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E807727D7C55CCF85BF9B5E8299FFBC0 /* AppsFlyer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE510192028B420362B203CF1B30D76 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3682A5BD1606E521992853F2684350FA /* AGGameInternationalSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		809D3B1F4063DB99FBADE9F7C5EDEAF8 /* Headers */ = {
+		719F201263AA565C62E0016ADCDBDE2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3E8130B8285F7FD54CAEB59D351A41 /* Pods-AGGameInternationalSDK_Example-umbrella.h in Headers */,
+				3E7CE1649A0474A5C8EF1683FA836182 /* Pods-AGGameInternationalSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,52 +214,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB098F72CEFB4C547EFC7CA587431B5A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				636FB410EC2CF39D3E7DEA50A5506B93 /* AGGameInternationalSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A23F7E682E2672AC69A76758354140DE /* AGGameInternationalSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5F9230A9E5C13E291EF3ABFA838103C /* Build configuration list for PBXNativeTarget "AGGameInternationalSDK" */;
-			buildPhases = (
-				91AF93DE0EC94BE9C68773192B01FF24 /* Sources */,
-				7054D76328D04D289E6D957993B83B0F /* Frameworks */,
-				FB098F72CEFB4C547EFC7CA587431B5A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGGameInternationalSDK;
-			productName = AGGameInternationalSDK;
-			productReference = ABDBF438535A8756363670F03AE2F56A /* AGGameInternationalSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B4A240AC2A7E4FC3DC860CFBD10AE078 /* Pods-AGGameInternationalSDK_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F438692C97C40CB55ED75D432BB4840 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Example" */;
-			buildPhases = (
-				69F6E97F783C4B110DB04EB98E22D913 /* Sources */,
-				C2F1A596E9A5168F12B4065C6886B28B /* Frameworks */,
-				809D3B1F4063DB99FBADE9F7C5EDEAF8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EEA23E8EFD4229FB9A8441E708D7D680 /* PBXTargetDependency */,
-			);
-			name = "Pods-AGGameInternationalSDK_Example";
-			productName = "Pods-AGGameInternationalSDK_Example";
-			productReference = ECEF1CC560E6FB7AAB7BC7135303855B /* Pods_AGGameInternationalSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C1B177508BDB72F4D528CC86B3A5FB9C /* Pods-AGGameInternationalSDK_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9500A98594CDE7080C87F8B45CC194B2 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Tests" */;
@@ -301,7 +231,24 @@
 			);
 			name = "Pods-AGGameInternationalSDK_Tests";
 			productName = "Pods-AGGameInternationalSDK_Tests";
-			productReference = 02482AEBB007923146E6B3D10BE6F542 /* Pods_AGGameInternationalSDK_Tests.framework */;
+			productReference = 29ACE78673DB2ABF6C43AAB058D9F0D6 /* Pods_AGGameInternationalSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA2EEF880D354E0EBD8416258C66A9CA /* Pods-AGGameInternationalSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE00C8317AD139D97861BDE23288417 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Example" */;
+			buildPhases = (
+				326A8A52E90550CA450030D99A056EE5 /* Sources */,
+				FC70DE5796F987EF77D4CF7B7E72BD1A /* Frameworks */,
+				719F201263AA565C62E0016ADCDBDE2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AGGameInternationalSDK_Example";
+			productName = "Pods-AGGameInternationalSDK_Example";
+			productReference = 7640F14478028E66118CD8D42D2EAED8 /* Pods_AGGameInternationalSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,12 +268,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E31A7010265D97D207232DAEE6369870 /* Products */;
+			productRefGroup = BA6BB6415CD95AB3050D9402694EA457 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A23F7E682E2672AC69A76758354140DE /* AGGameInternationalSDK */,
-				B4A240AC2A7E4FC3DC860CFBD10AE078 /* Pods-AGGameInternationalSDK_Example */,
+				DA2EEF880D354E0EBD8416258C66A9CA /* Pods-AGGameInternationalSDK_Example */,
 				C1B177508BDB72F4D528CC86B3A5FB9C /* Pods-AGGameInternationalSDK_Tests */,
 			);
 		};
@@ -341,33 +287,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69F6E97F783C4B110DB04EB98E22D913 /* Sources */ = {
+		326A8A52E90550CA450030D99A056EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F93EC286A2F5D46554A851BE929D77 /* Pods-AGGameInternationalSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AF93DE0EC94BE9C68773192B01FF24 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EBED187E7A4866F2637FF6F2A855884 /* AGGameInternationalSDK-dummy.m in Sources */,
-				1C376D0088196797AB6F6A146E2D9664 /* ReplaceMe.m in Sources */,
+				EF02F2CDCCEE8DE7EB372EBFEA30CD99 /* Pods-AGGameInternationalSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EEA23E8EFD4229FB9A8441E708D7D680 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AGGameInternationalSDK;
-			target = A23F7E682E2672AC69A76758354140DE /* AGGameInternationalSDK */;
-			targetProxy = 484F118D2B000087745CC6E36DE8C324 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
@@ -441,38 +369,9 @@
 			};
 			name = Debug;
 		};
-		4A905CD253578E15AA37D5CB2612F6CD /* Release */ = {
+		551AFF37838C121BA2B0CB316E238886 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBDADDE739649743756D077DA57E57A5 /* AGGameInternationalSDK.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AGGameInternationalSDK/AGGameInternationalSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AGGameInternationalSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AGGameInternationalSDK/AGGameInternationalSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AGGameInternationalSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83C02AD418C95A414BC49A730C2799C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBDADDE739649743756D077DA57E57A5 /* AGGameInternationalSDK.xcconfig */;
+			baseConfigurationReference = 3B2D63C2E6DB090FEB7E136AE7D4C8E6 /* Pods-AGGameInternationalSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -483,14 +382,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AGGameInternationalSDK/AGGameInternationalSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AGGameInternationalSDK/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AGGameInternationalSDK/AGGameInternationalSDK.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Pods-AGGameInternationalSDK_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AGGameInternationalSDK;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGGameInternationalSDK_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +401,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		55EDB1AB9F2DF7F76A59878FCD76C6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2409AAF43B5B8D01DBCEEEC3110E5200 /* Pods-AGGameInternationalSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Pods-AGGameInternationalSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGGameInternationalSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B5F6C586B4429BCCBD4E922D4D10778F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,75 +510,18 @@
 			};
 			name = Debug;
 		};
-		F60A954585D520377DA8C6031AC1DB99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B2D63C2E6DB090FEB7E136AE7D4C8E6 /* Pods-AGGameInternationalSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Pods-AGGameInternationalSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AGGameInternationalSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F929D3AADABCD4CDCC2B4838A119D312 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2409AAF43B5B8D01DBCEEEC3110E5200 /* Pods-AGGameInternationalSDK_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AGGameInternationalSDK_Example/Pods-AGGameInternationalSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AGGameInternationalSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FE00C8317AD139D97861BDE23288417 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551AFF37838C121BA2B0CB316E238886 /* Debug */,
+				55EDB1AB9F2DF7F76A59878FCD76C6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -652,29 +531,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F438692C97C40CB55ED75D432BB4840 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F60A954585D520377DA8C6031AC1DB99 /* Debug */,
-				F929D3AADABCD4CDCC2B4838A119D312 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9500A98594CDE7080C87F8B45CC194B2 /* Build configuration list for PBXNativeTarget "Pods-AGGameInternationalSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1268AE7622FFCFBCCD8D57328262322D /* Debug */,
 				B5F6C586B4429BCCBD4E922D4D10778F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5F9230A9E5C13E291EF3ABFA838103C /* Build configuration list for PBXNativeTarget "AGGameInternationalSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83C02AD418C95A414BC49A730C2799C5 /* Debug */,
-				4A905CD253578E15AA37D5CB2612F6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

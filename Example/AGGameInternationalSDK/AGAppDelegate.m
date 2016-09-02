@@ -7,12 +7,14 @@
 //
 
 #import "AGAppDelegate.h"
-
+#import <AGGameInternationalSDK/AGGameInternationalSDK.h>
 @implementation AGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [AGGameInternationalSDK setClientId:@"iosapp01" clientSecret:@"9538e6e7d45d86fb8b88d3df0184fe80" appleAppID:@"xxxx"];
+    [AGGameInternationalSDK setProductionMode:NO];
     return YES;
 }
 
