@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/appgame-sdk/AGGameInternationalSDK-for-iOS'
+  s.homepage         = 'http://www.appgame.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'supermao' => '625257555@qq.com' }
@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'UIKit'
-  s.vendored_frameworks = 'AGJointOperationSDK/AGJointOperationSDK.framework'
+  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'UIKit', 'GameKit', 'CoreGraphics','Social','StoreKit'
+  s.vendored_frameworks = 'AGGameInternationalSDK/AGGameInternationalSDK.framework'
   s.xcconfig = {'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
   s.dependency 'AppsFlyerFramework', '~> 4.5'
 end
