@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGGameInternationalSDK_Example' do
+  pod 'AGGameInternationalSDK', :path => '../'
+
+  target 'AGGameInternationalSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

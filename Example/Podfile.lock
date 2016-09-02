@@ -1,0 +1,16 @@
+PODS:
+  - AGGameInternationalSDK (0.1.0)
+
+DEPENDENCIES:
+  - AGGameInternationalSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AGGameInternationalSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGGameInternationalSDK: c75363a094f03377e3c5ad7ad672520592768e3f
+
+PODFILE CHECKSUM: 8d1eecfdda4133b52d625bd72c3ee975431505e1
+
+COCOAPODS: 1.0.1
