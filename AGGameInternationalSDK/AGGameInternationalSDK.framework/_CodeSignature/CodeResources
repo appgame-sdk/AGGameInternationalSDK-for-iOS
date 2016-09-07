@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AGConstants.h</key>
 		<data>
-		6oBG0tA3fLbghCO7Hma+fCtOrtI=
+		2GrzC57c7Kx6sPQvmLSr9ijwoUU=
 		</data>
 		<key>Headers/AGGameInternationalSDK.h</key>
 		<data>
-		Q0hAXuyCn/GBeO/8vXBh/W7zdIg=
+		bYs2gVsLtiCwMcD1EG6Osvpmb+Q=
 		</data>
 		<key>Headers/AGPurchase.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/AGUser+AGUI.h</key>
 		<data>
-		tynKEQw4/XO6NuciTlE/OGWMtoc=
+		/YwnbMKdWt7X/WjXRWCgQ3UIoQY=
 		</data>
 		<key>Headers/AGUser.h</key>
 		<data>
@@ -62,22 +62,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6oBG0tA3fLbghCO7Hma+fCtOrtI=
+			2GrzC57c7Kx6sPQvmLSr9ijwoUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FxhnDNIB872bMncPbF87lJIHL6C8fmAyhVmUIwclIWk=
+			AySRkNb1kDUz9thoBMULfcS6zouaVjiA5eD8wcNOTg4=
 			</data>
 		</dict>
 		<key>Headers/AGGameInternationalSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0hAXuyCn/GBeO/8vXBh/W7zdIg=
+			bYs2gVsLtiCwMcD1EG6Osvpmb+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			QPmJokccNaPK7s+AMWd1s2C2XEoVCnOQKc5/EJogbKM=
+			pFU5sBDTqc6NFm4RlP/pkuohFnU/BRS9mcCL+87bc4w=
 			</data>
 		</dict>
 		<key>Headers/AGPurchase.h</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tynKEQw4/XO6NuciTlE/OGWMtoc=
+			/YwnbMKdWt7X/WjXRWCgQ3UIoQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1mrTyDSI7JGsfRS6hZcWeTek5v8ROc0pudgcjTel93s=
+			yJGBBOpZ+I4YEa2KQjxyPQy/lqBs+yQMp9cBqPjETG0=
 			</data>
 		</dict>
 		<key>Headers/AGUser.h</key>
