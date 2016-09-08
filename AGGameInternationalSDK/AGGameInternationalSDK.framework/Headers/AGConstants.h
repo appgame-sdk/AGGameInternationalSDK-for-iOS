@@ -160,6 +160,10 @@ typedef NS_ENUM(NSInteger, AGErrorCode) {
      */
     kAGErrorInvalidReceipt = 303,
     /**
+     订单号丢失。
+     */
+    kAGErrorPaymentOrderIdLost = 304,
+    /**
      GameCenter用户已经被绑定
      */
     kAGErrorGameCenterUserHasBeenBind = 401,

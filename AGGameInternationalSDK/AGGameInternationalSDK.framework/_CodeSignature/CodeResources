@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AppleIncRootCertificate.cer</key>
-		<data>
-		YR5bZixZOgj/WNFK4iRS0ZjfbGA=
-		</data>
 		<key>Headers/AGConstants.h</key>
 		<data>
-		2GrzC57c7Kx6sPQvmLSr9ijwoUU=
+		96z/EzYzvVdbe7g8BolwKyEvx8g=
 		</data>
 		<key>Headers/AGGameInternationalSDK.h</key>
 		<data>
@@ -34,11 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PaHI+cCP9vTcGT2tse+gwbjH5Lk=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		ycUL1Gtpq6YuYcZdirCN0ejIOzg=
+		AgEUCBDMDbZLEKvuiyTI76BFCxQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,26 +39,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AppleIncRootCertificate.cer</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YR5bZixZOgj/WNFK4iRS0ZjfbGA=
-			</data>
-			<key>hash2</key>
-			<data>
-			sLFzDsvH/0UFFCxJ8Slebtpryu1+LGjFvpG1oRAB8CQ=
-			</data>
-		</dict>
 		<key>Headers/AGConstants.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2GrzC57c7Kx6sPQvmLSr9ijwoUU=
+			96z/EzYzvVdbe7g8BolwKyEvx8g=
 			</data>
 			<key>hash2</key>
 			<data>
-			AySRkNb1kDUz9thoBMULfcS6zouaVjiA5eD8wcNOTg4=
+			GbNiaJDbxuoOJJytmb3XLBUPIu879MQm1T3lW7Yqfbo=
 			</data>
 		</dict>
 		<key>Headers/AGGameInternationalSDK.h</key>
@@ -122,17 +103,6 @@
 			<key>hash2</key>
 			<data>
 			mOvtss5k7xkco9ArjS9PGltuFQz4sQe6KTMW5jAfIeg=
-			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ycUL1Gtpq6YuYcZdirCN0ejIOzg=
-			</data>
-			<key>hash2</key>
-			<data>
-			NW5CJe0HffJYaGeVeXhBBLG3pXUuusxzBKLU7A8Z6Wg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
