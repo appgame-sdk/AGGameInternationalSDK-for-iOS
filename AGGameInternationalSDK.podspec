@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGGameInternationalSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'AGGameInternationalSDK.'
   s.homepage         = 'http://www.appgame.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
