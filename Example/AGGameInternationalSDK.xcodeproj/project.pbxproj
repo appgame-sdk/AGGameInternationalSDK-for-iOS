@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0FE595C45013F9C173554F02 /* Pods_AGGameInternationalSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2E8B193D4BD92D1C5AF16 /* Pods_AGGameInternationalSDK_Tests.framework */; };
 		1F097D941547C6C3ED69636C /* Pods_AGGameInternationalSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C4CD34F938526259237FE7 /* Pods_AGGameInternationalSDK_Example.framework */; };
+		349D42EF1D7ECD3400B45310 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 349D42EE1D7ECD3400B45310 /* dog.jpg */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23127BB4A9BAD46560480D9F /* AGGameInternationalSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AGGameInternationalSDK.podspec; path = ../AGGameInternationalSDK.podspec; sourceTree = "<group>"; };
+		349D42EE1D7ECD3400B45310 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		36DA582DAE5B78EA707C6D62 /* Pods-AGGameInternationalSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGGameInternationalSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGGameInternationalSDK_Tests/Pods-AGGameInternationalSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AGGameInternationalSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGGameInternationalSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* AGViewController.h */,
 				6003F5A6195388D20070C39A /* AGViewController.m */,
+				349D42EE1D7ECD3400B45310 /* dog.jpg */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349D42EF1D7ECD3400B45310 /* dog.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

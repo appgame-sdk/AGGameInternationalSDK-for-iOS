@@ -159,6 +159,14 @@ typedef NS_ENUM(NSInteger, AGErrorCode) {
      无效的商品收据。
      */
     kAGErrorInvalidReceipt = 303,
+    /**
+     订单号丢失。
+     */
+    kAGErrorPaymentOrderIdLost = 304,
+    /**
+     GameCenter用户已经被绑定
+     */
+    kAGErrorGameCenterUserHasBeenBind = 401,
 };
 
 ///--------------------------------------
