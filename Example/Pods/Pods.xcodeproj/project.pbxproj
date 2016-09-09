@@ -40,7 +40,6 @@
 		C425E613D4C44F8FE28F64440F53417B /* Pods-AGGameInternationalSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGGameInternationalSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E223C74ADE5D872AAC2231EECBBA1621 /* Pods-AGGameInternationalSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGameInternationalSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		E807727D7C55CCF85BF9B5E8299FFBC0 /* AppsFlyer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyer.framework; sourceTree = "<group>"; };
 		E9BF897FC45DECCD132D47BB25C83EF8 /* Pods-AGGameInternationalSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGameInternationalSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,14 +71,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		257A58BFDF96F4288D3B6C46C0F59131 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				677D82CBC131C24B4D13C1D96CCD2DD6 /* AppsFlyerFramework */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3682A5BD1606E521992853F2684350FA /* AGGameInternationalSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,21 +97,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		677D82CBC131C24B4D13C1D96CCD2DD6 /* AppsFlyerFramework */ = {
-			isa = PBXGroup;
-			children = (
-				FD38E7BDF08DE7864E15322771D80873 /* Frameworks */,
-			);
-			path = AppsFlyerFramework;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FDE510192028B420362B203CF1B30D76 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				257A58BFDF96F4288D3B6C46C0F59131 /* Pods */,
 				BA6BB6415CD95AB3050D9402694EA457 /* Products */,
 				590AA0A67798F3CD825389625FFB82DE /* Targets Support Files */,
 			);
@@ -177,14 +159,6 @@
 			);
 			name = "Pods-AGGameInternationalSDK_Example";
 			path = "Target Support Files/Pods-AGGameInternationalSDK_Example";
-			sourceTree = "<group>";
-		};
-		FD38E7BDF08DE7864E15322771D80873 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E807727D7C55CCF85BF9B5E8299FFBC0 /* AppsFlyer.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FDE510192028B420362B203CF1B30D76 /* Development Pods */ = {

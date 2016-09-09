@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'  
   s.requires_arc = true
 
-  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'UIKit', 'GameKit', 'CoreGraphics','Social','StoreKit'
+  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'UIKit', 'GameKit', 'CoreGraphics','Social','StoreKit','AdSupport', 'iAd', "Security"
   s.vendored_frameworks = 'AGGameInternationalSDK/AGGameInternationalSDK.framework'
   s.xcconfig = {'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
 end
