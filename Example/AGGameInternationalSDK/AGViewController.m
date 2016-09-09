@@ -17,16 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
+	//监听用户登录消息
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleUserDidChangeNotification:) name:AGUserDidChangeNotification object:nil];
 }
 
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [AGShare shareToFacebookOnViewController:self initialText:nil image:nil URL:nil completionBlock:^(AGShareResult result) {
-        
-    }];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -90,4 +87,24 @@
     }];
 }
 
+- (IBAction)logout:(id)sender{
+    //登出
+    [AGUser logOutWithCompletionBlock:^(BOOL success, NSError * _Nonnull error) {
+        
+    }];
+}
+
+- (void)handleUserDidChangeNotification:(NSNotification*)notification{
+    NSDictionary *userInfo = notification.userInfo;
+    if (userInfo[AGErrorKey]) {
+        NSLog(@"登录失败");
+    }else{
+        if (userInfo[AGDidSignInKey]) {
+            NSLog(@"登录成功");
+        }
+        if (userInfo[AGDidSignOutKey]) {
+            NSLog(@"退出");
+        }
+    }
+}
 @end
