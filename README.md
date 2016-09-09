@@ -10,7 +10,7 @@
 - [x] 支持游客登录
 - [x] 支持苹果内购
 - [x] 支持Facebook分享
-- [x] 内置AppsFlyer数据统计
+- [x] 内置数据统计
 
 ## 不支持功能
 
@@ -48,14 +48,16 @@ pod update
 在需要的地方添加
 
 ```Objective-C
-#import <AGJointOperationSDK/AGJointOperationSDK.h>
+#import <AGGameInternationalSDK/AGGameInternationalSDK>
 ```
 初始化
 
 ```Objective-C
-[AGGameInternationalSDK setClientId:@"你的id" clientSecret:@"你的secret" appleAppID:@"你的应用的Apple Id"];
+
 //默认为正式环境，NO为测试环境，内购沙盒测试请设置为NO
 [AGGameInternationalSDK setProductionMode:NO];
+[AGGameInternationalSDK setClientId:@"你的id" clientSecret:@"你的secret" appleAppID:@"你的应用的Apple Id"];
+
 ```
 
 后续步骤参考Example/AGGameInternationalSDK 里面的工程。
@@ -132,12 +134,12 @@ GET http://passport.test.appgame.com/resource/userinfo?access_token=aKmsEfsLLmLD
 }
 ```
 ## 版本历史
-- 0.1.0
+- 1.0.0
 	- 支持GameCenter登录任玩堂账号
 	- 支持游客登录
 	- 封装StoreKit
 	- 支持Facebook分享
-	- 内置AppsFlyer数据统计
+	- 内置数据统计
 
 
 
