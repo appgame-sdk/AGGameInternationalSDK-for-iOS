@@ -134,6 +134,8 @@ GET http://passport.test.appgame.com/resource/userinfo?access_token=aKmsEfsLLmLD
 }
 ```
 ## 版本历史
+- 1.0.1
+	- 修复货币代码不正确的问题
 - 1.0.0
 	- 支持GameCenter登录任玩堂账号
 	- 支持游客登录
